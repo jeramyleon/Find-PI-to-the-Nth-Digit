@@ -5,9 +5,9 @@ def pi_tothe(n):
         return 'Error: Too many decimal places, make sure your input is less than 16'
 
     pistring = str(math.pi)
-    pistring = float(pistring[:2+n])
-    return pistring
+    newpi = float(pistring[:2+n])
+    return newpi
 
-print(pi_tothe(16))
+print(pi_tothe(5))
 
 
